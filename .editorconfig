@@ -1,0 +1,15 @@
+# top-most EditorConfig file
+root=true
+
+# Apply Unix-style newlines with a newline ending, use UTF-8 encoding,
+# and remove any whitespace characters before newlines on every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+# 2 spaces indentation for JS files
+[*.js]
+indent_style = space
+indent_size = 2
